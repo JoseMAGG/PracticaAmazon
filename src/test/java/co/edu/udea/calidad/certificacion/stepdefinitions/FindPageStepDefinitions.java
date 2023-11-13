@@ -17,7 +17,7 @@ import org.openqa.selenium.WebDriver;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 public class FindPageStepDefinitions {
     @Managed(driver = "chrome")
     public WebDriver driver;
